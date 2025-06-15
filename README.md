@@ -2,6 +2,8 @@
 
 Bourke's Implementation can be found here: https://paulbourke.net/geometry/polygonise/
 
+The CPU-only implementation scales surprisingly well but the GPU performance essentially doesn't change even at 150,000+ points. 
+
 WGSL compute shader and CPU implementations side by side for Classic Bourke Marching Cubes algorithm in a single HTML file.  
 
 WIP turning this into proper tooling with a reusable shader pipeline for speed to generate isosurfaces from arbitrary point cloud data.
