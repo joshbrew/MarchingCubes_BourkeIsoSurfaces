@@ -1,4 +1,7 @@
-# MarchingCubes_BourkeIsoSurfaces
+# Marching Cubes - Bourke IsoSurfaces
+
+Bourke's Implementation can be found here: https://paulbourke.net/geometry/polygonise/
+
 WGSL compute shader and CPU implementations side by side for Classic Bourke Marching Cubes algorithm in a single HTML file.  
 
 WIP turning this into proper tooling with a reusable shader pipeline for speed to generate isosurfaces from arbitrary point cloud data.
